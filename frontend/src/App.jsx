@@ -22,13 +22,13 @@ export default function App() {
   const [filter, setFilter] = useState('all')
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/summary')
+    fetch('https://esg-carbon-credit-validator-production.up.railway.app/api/summary')
       .then(r => r.json())
       .then(setSummary)
   }, [])
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/report')
+    fetch('https://esg-carbon-credit-validator-production.up.railway.app/api/report')
       .then(r => r.json())
       .then(setReport)
   }, [])
