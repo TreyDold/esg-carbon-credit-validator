@@ -1,0 +1,6 @@
+transaction_id,serial_number,discrepancy_type,note
+T900001,GS-01771-2020-00000004,double_count,Serial number also claimed in T000010 by Solace Apparel Holdings
+T000030,VCS-02697-2019-00000014,vintage_mismatch,claim_year (2017) predates vintage_year (2019)
+T000055,VCS-08564-2022-00000026,unit_error,CH4 quantity reported in tCO2 without GWP-equivalent conversion to tCO2e
+T900002,GS-01659-2025-00000018,double_retirement,Same serial number already retired on 2026-10-27 in T000080
+T000105,CAR-01228-2019-00000007,registry_mismatch,"REDD+ (VM0048) claimed under CAR, which does not issue credits for this methodology"
