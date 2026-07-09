@@ -6,8 +6,10 @@ from validator import aggregator
 app = FastAPI(title="ESG Carbon Credit Discrepancy Detector")
 
 app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Vite's default dev server port
+    CORSMiddleware, 
+    allow_origins=["http://localhost:5173", 
+                   "http://localhost:3000", 
+                   "https://esg-carbon-credit-validator.vercel.app"],  # Vite's default dev server port
     allow_methods=["*"],
     allow_headers=["*"],
 )
